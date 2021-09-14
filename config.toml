@@ -17,7 +17,7 @@ theme = "LoveIt"
   # 网站描述
   description = "Peter的个人博客"
   # 网站关键词
-  keywords = ["Android", "微服务", "Flutter", "Hugo"]
+  keywords = ["Android", "微服务", "Flutter", "Hugo", "Peter", "Peter Liu", "impeter", "impeter1986", "peter", "peterlpt", "ptlpt"]
   # 网站默认主题样式 ("light", "dark", "auto")
   defaultTheme = "auto"
   # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
@@ -174,7 +174,7 @@ theme = "LoveIt"
     FreeCodeCamp = ""
     Bitbucket = ""
     Stackoverflow = ""
-    Weibo = ""
+    Weibo = "impeter1986"
     Odnoklassniki = ""
     VK = ""
     Flickr = ""
@@ -197,7 +197,7 @@ theme = "LoveIt"
     Strava = ""
     Skype = ""
     Whatsapp = ""
-    Zhihu = ""
+    Zhihu = "impeter1986"
     Douban = ""
     Angellist = ""
     Slidershare = ""
@@ -215,9 +215,9 @@ theme = "LoveIt"
     Gitea = ""
     XMPP = ""
     Matrix = ""
-    Bilibili = ""
+    Bilibili = "386192120"
     Email = "peterlpt@hotmail.com"
-    RSS = true # 
+    RSS = false # 
 
   #  文章页面配置
   [params.page]
@@ -331,9 +331,9 @@ theme = "LoveIt"
         clientSecret = ""
       # Valine 评论系统设置
       [params.page.comment.valine]
-        enable = false
-        appId = ""
-        appKey = ""
+        enable = true
+        appId = "zylJrwY0XR0zvIcmQQEBSo3B-gzGzoHsz"
+        appKey = "y8rjo9CubVbcIlebGdTIzCbH"
         placeholder = ""
         avatar = "mp"
         meta= ""
