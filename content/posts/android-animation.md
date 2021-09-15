@@ -1,7 +1,7 @@
 ---
 title: "Android动画"
 categories: [Android]
-tags: [Android, windowAnimation, ActivityAnimation, Transition]
+tags: [Android, Animation]
 date: 2017-10-11T14:08:12+08:00
 draft: false
 ---

@@ -1,7 +1,7 @@
 ---
 title: Android环境配置自动切换实现
 categories: [Android]
-tags: [Android, CI, 环境配置, buildTypes, productFlavors, Groovy]
+tags: [Android, CI, Groovy]
 date: 2017-06-05T18:18:32+08:00
 draft: false
 ---

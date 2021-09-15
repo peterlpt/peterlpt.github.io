@@ -1,7 +1,7 @@
 ---
 title: Android原生广告曝光点击监测实现
 categories: [Android]
-tags: [Android, 广告监测, 曝光, 异步监测, 同步监测]
+tags: [Android, 广告监测, 曝光]
 date: 2019-09-14T21:08:32+08:00
 draft: false
 ---

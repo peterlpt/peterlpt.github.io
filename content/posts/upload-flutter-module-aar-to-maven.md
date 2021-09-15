@@ -1,7 +1,7 @@
 ---
 title: "上传Flutter module aar到maven私服"
 categories: [Flutter]
-tags: [Flutter, aar, add-to-app]
+tags: [Flutter, add-to-app]
 date: 2020-05-03T10:08:32+08:00
 draft: false
 ---

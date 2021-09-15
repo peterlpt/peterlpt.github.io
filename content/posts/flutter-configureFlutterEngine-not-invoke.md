@@ -1,7 +1,7 @@
 ---
 title: "Add-to-app的MethodCallHandler不生效抛MissingPluginException解决"
 categories: [Android, Flutter, Dart]
-tags: [Add-to-app, Flutter, MethodChannel, MethodCallHandler]
+tags: [Flutter, add-to-app]
 date: 2020-04-25T19:09:23+08:00
 draft: false
 ---

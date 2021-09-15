@@ -1,7 +1,7 @@
 ---
 title: "修复升级Catalina后Jekyll本地预览启动失败"
 categories: [Mac]
-tags: [Jekyll, Homebrew, Mojave, Catalina]
+tags: [Jekyll, Homebrew, Catalina]
 date: 2019-12-02T16:09:12+08:00
 draft: false
 ---
