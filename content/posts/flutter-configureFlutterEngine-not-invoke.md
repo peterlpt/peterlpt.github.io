@@ -326,7 +326,7 @@ context.startActivity(intent);
 
 ### 5. 其他
 
-[这里整理了demo完整代码](https://github.com/peterlpt/flutter_add-to-app_bugfix.git)
+[这里整理了demo完整代码](https://gitee.com/ptlpt/flutter_add-to-app_bugfix.git)
 
 
 
