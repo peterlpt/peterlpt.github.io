@@ -8,6 +8,8 @@ draft: false
 
 将环境配置与对应buildType关联，实现切换环境打包无需调整代码，保证各环境下必要的差异同时最大限度降低误、漏操作导致不应该的配置发布到应用市场。同时也简单整理了build.gradle相关配置，包含buildTypes、productFlavors、matchingFallbacks等。
 
+<!--more-->
+
 ## 1 背景
 
 通常基于这些原因，我们需要为开发、测试、体验、生产等各个阶段环境定制专用配置：

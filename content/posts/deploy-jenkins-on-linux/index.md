@@ -6,7 +6,9 @@ date: 2016-09-26T11:11:32+08:00
 draft: false
 ---
 
-以部署Android项目持续集成Jenkins为例进行Jenkins的部署和配置说明
+以部署Android项目持续集成Jenkins为例进行Jenkins的部署和配置说明。
+
+<!--more-->
 
 Jenkins提供了war包，因此， 我们只需要在linux安装一个容器，然后发布该war包即可。这里选择Tomcat作为容器，具体过程如下。
 

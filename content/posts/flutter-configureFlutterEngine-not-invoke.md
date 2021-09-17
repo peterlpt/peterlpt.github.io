@@ -8,6 +8,8 @@ draft: false
 
 Add-to-app模式下，在FlutterActivity子类configureFlutterEngine里，因设置的MethodChannel及MethodCallHandler未触发，导致Flutter Module通过MethodChannel调用原生平台时一直抛MissingPluginException的问题分析及解决。
 
+<!--more-->
+
 ### 1. 需求背景及遇到的问题现象
 
 经过一段时间的Flutter调研试用后，我们决定在现有App中添加一个用Flutter实现的业务模块。Flutter Module与Host App之间的互相调用通信是必须具备的能力。

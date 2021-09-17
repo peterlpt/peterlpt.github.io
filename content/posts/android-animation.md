@@ -8,6 +8,8 @@ draft: false
 
 有关于Android动画基础知识的理解及笔记记录
 
+<!--more-->
+
 ### 1. windowAnimation和ActivityAnimation的区别
 
 1. 包含内容

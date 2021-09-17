@@ -2,6 +2,7 @@
 title: "centos 6中安装和配置SciTE"
 categories: [Linux]
 tags: [SciTE, Linux, Centos]
+summary: "SciTE是一款很好用的编辑器，支持众多的脚本，比如C、C++、PHP、C#、perl、html、css、java等等。免费而且开源。支持linux和win32环境。在windows下面只需要将下载的文件解压缩就能使用。较其它同重量级软件，最耀眼的就是导出功能，可以导出PDF/HTML/RTF/XML/LaTex类型的文件，直接就能将语法高亮的内容导出。"
 date: 2014-04-13T10:08:32+08:00
 draft: false
 ---

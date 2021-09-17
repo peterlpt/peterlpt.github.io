@@ -8,6 +8,8 @@ draft: false
 
 虽然目前Python3+Robot Framework+RIDE已经支持，考虑到团队其他成员仍然使用Python2，在此整理一份Python2+Robot Framework+RIDE搭建过程，备忘。<br>
 
+<!--more-->
+
 为什么使用pip安装？<br>
 因为最简单，且规范
 

@@ -8,6 +8,8 @@ draft: false
 
 修复MacOS从Mojave升级到Catalina后，bundle启动Jekyll本地预览失败，提示“-bash: /usr/local/bin/bundle: /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby: bad interpreter: No such file or directory”问题
 
+<!--more-->
+
 这两天相对有空，决定升级MacOS到Catalina，之前已经留意到该系统相关的兼容问题，已经有所心理准备：MacOS Catalina（10.15）不再支持 32 位应用，这也是首个**只支持 64 位应用程序**的 macOS 版本，亦即意味着有数量相当可观的一批旧应用将不能在新系统中运行。[Apple 列出 235 个与 macOS Catalina 不兼容的应用](https://www.oschina.net/news/110544/235-apps-incompatible-with-catalina)
 
 ### 问题现象

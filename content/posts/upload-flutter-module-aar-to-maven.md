@@ -8,6 +8,8 @@ draft: false
 
 本文主要描述如何编写shell脚本找到所有Flutter module aar，并调用maven上传命令上传到私服。
 
+<!--more-->
+
 ### 1. 开发环境说明
 
 Flutter版本，经测试适用于`Flutter (Channel stable, v1.12.13)`至目前如下`Flutter (Channel stable, v1.12.13`

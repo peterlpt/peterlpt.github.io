@@ -8,6 +8,8 @@ draft: false
 
 记录在Flutter开发中遇到的一系列问题、分析过程及解决方法。
 
+<!--more-->
+
 ### 1. 给现有Flutter应用添加Web支持，运行报bad import错
 
 * 错误信息

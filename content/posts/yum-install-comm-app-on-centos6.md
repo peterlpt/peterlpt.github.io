@@ -6,7 +6,9 @@ date: 2014-03-15T11:08:32+08:00
 draft: false
 ---
 
-主要有输入法、Chrome、wine
+主要有输入法、Chrome、wine。
+
+<!--more-->
 
 ## ibus中文输入法的配置
 

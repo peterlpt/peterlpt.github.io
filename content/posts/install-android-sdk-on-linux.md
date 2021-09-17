@@ -8,6 +8,8 @@ draft: false
 
 主要用于服务器搭建Android环境，用于CI/CD
 
+<!--more-->
+
 ## 下载Android SDK
 
 下载地址：<http://developer.android.com/sdk/index.html>，选择Linux(i386)。因为SDK只有32位的，如果装的是64位系统，则要安装ia32-libs，运行32位程序<br>
