@@ -99,7 +99,7 @@ pip install robotframework-seleniumlibrary
 ```
 安装完成后，即可在项目编辑页面进行添加，输入名字就可
 
-![RIDE依赖](ride_add_lib.jpg "RIDE导入依赖")
+![RIDE导入依赖](ride_add_lib.jpg "RIDE导入依赖")
 
 为什么只要输入名字RIDE就能自动把库导进去？<br>
 因为RIDE在输入的只是一个名字而不是路径时，就会到当前启动RIDE所用python的Lib/site-packages目录下寻找同名文件夹导入。
@@ -155,7 +155,7 @@ def pop(self):
         return result  # DEBUG .decode('UTF-8', 'ignore')
 ```
 
-![修改结果](rf_encode.png "testrunner.py修改结果")
+![RIDE console乱码问题 testrunner.py修改](rf_encode.png "testrunner.py修改结果")
 
 改完重启ride生效
 
@@ -163,4 +163,4 @@ def pop(self):
 
 数据库连接语句中加上charset='utf8'
 
-![image-20190915154642498](rf_fix_db_src_encode.png)
+![RIDE从数据库中取出中文乱码](rf_fix_db_src_encode.png "RIDE从数据库中取出中文乱码")

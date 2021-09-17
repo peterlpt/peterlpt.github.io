@@ -60,16 +60,16 @@ Jenkins没有选项可以调整显示语言，但调整浏览器语言顺序设�
 ### 2) 系统设置
 在jenkins主页进入系统设置
 
-![](jenkins_config_2.png)
+![Jenkins系统设置](jenkins_config_2.png "Jenkins系统设置")
 
 在Jenkins Location栏，根据jenkins所在服务器ip设置Jenkins URL，同时需配置一个管理员邮件地址，如果邮件地址未配置，后面配置的Jenkins发送邮件时会报错。
 
-![](jenkins_config_3_location.png)
+![Jenkins Location设置](jenkins_config_3_location.png "Jenkins Location设置")
 
 ### 3) Configure Global Security
 启用这项配置，可以指定用户角色
 
-![](jenkins_config_4_Security.png)
+![Jenkins Configure Global Security](jenkins_config_4_Security.png "Jenkins Configure Global Security")
 
 具体可以参考一下：<http://blog.csdn.net/achang21/article/details/48711583>
 
@@ -78,12 +78,12 @@ Jenkins没有选项可以调整显示语言，但调整浏览器语言顺序设�
 由于Android使用的gradle构建，我们jenkins也需安装gradle插件，输入gradle搜索，找到“Gradle Plugin”安装；<p>
 系统自带的邮件发送插件只能发给 固定的对象，且格式单一（txt），可选择安装Email Extersion Plugin，安装完后，切换到系统设置页面，会多一个Extended E-mail Notification栏目，在Extended E-mail Notification栏，指定邮件服务器配置、默认邮件后缀等信息
 
-![](jenkins_config_5_Notification.png)
+![Extended E-mail Notification](jenkins_config_5_Notification.png "Extended E-mail Notification")
 
 ### 5) 新建和配置Job
 在Jenkins主页，选择新建，输入名称，构建一个自由风格的软件项目。
 
-![](jenkins_config_6.png)
+![Jenkins 新建Job](jenkins_config_6.png "Jenkins 新建Job")
 
 在“源码管理”栏目，选择一个版本管理软件，我们用的是svn，因此选择“Subversion”，在“Modules”中:<br>
 Repository URL：填写项目svn的主目录<br>
@@ -91,26 +91,27 @@ Credentials：添加一个svn认证账户<br>
 Local module directory：使用默认的当前目录<p>
 依次点击“Add module...”添加所有项目依赖库，注意选择这里“Local module directory”相对目录结构。
 
-![](jenkins_config_7.png)
-![](jenkins_config_8.png)
+![Jenkins源码管理](jenkins_config_7.png "Jenkins源码管理")
+![Jenkins源码管理](jenkins_config_8.png "Jenkins源码管理2")
 
 在“构建触发器”栏目，选择“Poll SCM”，并指定规则日程表，采用了著名的UNIX任务调度工具CRON所使用的配置方式，可以点击旁边的帮助获取语法说明。
 
 下面的配置表示每天凌晨1点触发
 
-![](jenkins_config_9.png)
+![Jenkins 构建触发器 Poll SCM](jenkins_config_9.png "Jenkins 构建触发器")
 
 在“构建”栏目增加构建步骤，选择gradle，按下图选择gradle版本和需执行的gradle Task
 
-![](jenkins_config_10.png)
-![](jenkins_config_11.png)
+![Jenkins增加Gradle构建步骤](jenkins_config_10.png "Jenkins增加Gradle构建步骤")
+![Jenkins Gradle构建配置](jenkins_config_11.png "Jenkins Gradle构建配置")
 
 在“构建后操作”栏目添加一个操作，选择刚才安装的邮件通知插件下的“Editable Email Notification”，可以看到默认会添加全局邮件风格设置
 
-![](jenkins_config_12.png)
+![Jenkins构建后Editable Email Notification配置](jenkins_config_12.png "Jenkins构建后Editable Email Notification配置")
 
 点击“Advanced Settings…”可以看到默认添加了一个构建失败时的通知触发器，这里可以再添加一些额外的收件人组，点击旁边的帮助可以了解各收件人组的定义。
 
-![](jenkins_config_13.png)
+![Editable Email Notification Advanced Settings](jenkins_config_13.png "Editable Email Notification Advanced Settings")
 
 保存即可
+

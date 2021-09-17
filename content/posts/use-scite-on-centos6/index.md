@@ -83,5 +83,5 @@ file.patterns.sql=*.sql;*.buf
 ```
 保存即可。
 
-![](scite.jpg)
+![设置scite识别sqlplus的缓存文件](scite.jpg "设置scite识别sqlplus的缓存文件")
 

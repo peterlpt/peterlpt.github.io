@@ -45,7 +45,7 @@ sh gradlew task
 
 每一个buildTypes与productFlavors的组合称为一个variant（变种），我们通过执行指定variant的构建task，来指定输出目标variant apk等操作。在Android Studio “View->Tool Windows->Build Variants”可以看到如下情况。
 
-<img src="as_build_variants.png" alt="as_build_variants" style="zoom:50%;" />
+<img src="as_build_variants.png" alt="Android Studio Build Variants" style="zoom:50%;" title="Android Studio Build Variants" />
 
 ## 3 配置实现
 
@@ -169,7 +169,7 @@ android{
 
 Android Studio支持在指定Variant下，编译main下java、res等目录自动同时编译生效与当前Variant相关的buildTypes、productFlavors名或者两者组合名目录下java、res等目录，具体效果如下图。
 
-![as_variant_feature](as_variant_feature.jpg)
+![自动编译当前buildTypes productFlavors名下java、res等目录](as_variant_feature.jpg "Android Studio自动编译当前Variant名下java、res等目录")
 
 利用Android Studio这一特性，结合前面我们定义的四个环境debug、alpha、beta、release，我们可分别按BuildType定义目录，并在java目录编写config.AppProfile.java，进行环境配置，比如我们将非生产的其他三个环境debug、alpha、beta，配置config.AppProfile.java：
 

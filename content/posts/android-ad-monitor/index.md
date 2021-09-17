@@ -12,7 +12,7 @@ draft: false
 
 ## 1 实现效果概述
 
-![广告监测, 动图大小7.7MB](android_ad_monitor.gif "广告监测整体实现效果")
+![Android原生App广告曝光点击监测](android_ad_monitor.gif "广告监测整体实现效果")
 
 说明：
 

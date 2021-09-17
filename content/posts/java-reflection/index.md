@@ -23,7 +23,7 @@ JAVA反射机制是在运行状态中，对于任意一个类，都能够知道�
      （其实：一个类中这些成员方法、构造方法、在加入类中都有一个类来描述）
 如下图是类的正常加载过程，反射的原理在于Class对象。Class对象的由来是将class文件读入内存，并为之创建一个Class对象。
 
-![](java-reflection-1.jpg)
+![Java反射加载过程](java-reflection-1.jpg  "Java反射加载过程")
 
 javadoc中关于Class的描述：
 
