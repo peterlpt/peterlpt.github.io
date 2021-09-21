@@ -493,6 +493,14 @@ theme = "LoveIt"
     url = "/categories/"
     title = ""
     weight = 3
+  [[menu.main]]
+    identifier = ""
+    pre = ""
+    post = ""
+    name = "留言"
+    url = "/message-board/"
+    title = ""
+    weight = 4
 
 # Hugo 解析文档的配置
 [markup]
@@ -539,6 +547,8 @@ theme = "LoveIt"
 [Permalinks]
   # posts = ":year/:month/:filename"
   posts = ":filename"
+  categories = "/categories/:slug/"
+  tags = "/tags/:slug/"
 
 # 隐私信息配置
 [privacy]
