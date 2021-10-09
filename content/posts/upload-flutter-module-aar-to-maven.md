@@ -96,11 +96,13 @@ Consuming the Module
 To learn more, visit https://flutter.dev/go/build-aar
 ```
 
-注意：
+{{< admonition >}}
 
 * 这里使用了flutter channel beta的新功能指定版本号打包， 如果使用Channel stable, v1.12.13，暂时只能使用`flutter build aar`命令，打出来的aar固定版本号为1.0，如需要调整，可参考[Flutter 1.12后 上传aar至maven私服](https://juejin.im/post/5e3c0ad351882549087d90b5)在打好包后写脚本修改一下pom文件
 * 指定的版本号`1.0.0-SNAPSHOT`，为快照版本，日常工作中会自动获取最新的快照，在开发阶段建议使用快照版本，发布生产时再切换回release版本。关于快照版本，可参考[Maven 快照(SNAPSHOT)](https://www.runoob.com/maven/maven-snapshots.html)进一步了解
 * 在完成打包后已经显示了host app配置依赖的完整步骤，如果不考虑将aar部署到私服，按上面步骤配置即可，aar直接指向本机本地仓库
+
+{{< /admonition >}}
 
 ### 3. maven 私服搭建及本地上传配置
 

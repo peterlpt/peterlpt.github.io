@@ -12,7 +12,7 @@ draft: false
 
 ### 1. 给现有Flutter应用添加Web支持，运行报bad import错
 
-* 错误信息
+{{< admonition failure 错误信息 >}} 
 
 ```shell
 $ flutter run -d chrome
@@ -33,6 +33,8 @@ Failed to build application for the Web.
 
 ```
 
+ {{< /admonition >}}
+
 * 问题解决
 
 原因是app中存在多个main()函数，注释掉其他不必要的测试main()函数，只保留一个即可。
@@ -41,7 +43,7 @@ Failed to build application for the Web.
 
 ### 2. 设置CocoaPods报ruby: bad interpreter: No such file or directory
 
-* 错误信息
+{{< admonition failure 错误信息 >}} 
 
 在配置iOS环境时，安装CocoaPods后，设置报如下错误
 
@@ -49,6 +51,8 @@ Failed to build application for the Web.
 $ pod setup
 -bash: /usr/local/bin/pod: /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby: bad interpreter: No such file or directory
 ```
+
+ {{< /admonition >}}
 
 * 问题分析
 
@@ -101,7 +105,7 @@ fuzzy_match     kramdown        rougify         scss
 gemoji          listen          safe_yaml       update_rubygems
 ```
 
-* 问题解决
+{{< admonition success 问题解决 >}} 
 
 修改Paths
 
@@ -114,9 +118,11 @@ $ pod --version
 1.8.4
 ```
 
+{{< /admonition >}}
+
 ### 3. AppBar 不自动显示返回键等leading Widget
 
-* 异常情况
+{{< admonition failure 异常情况 >}} 
 
 关于Scaffold AppBar的automaticallyImplyLeading参数，默认为true，根据doc注释：
 
@@ -131,11 +137,13 @@ automaticallyImplyLeading=true，同时leading Widget未设置，系统应该会
 
 但有时却不会显示？
 
+{{< /admonition >}}
+
 * 问题原因
 
 只有Scaffold作为根Widget时，AppBar automaticallyImplyLeading=true，才能根据存在上级路由时自动显示返回键
 
-* 问题解决
+{{< admonition success 问题解决 >}} 
 
 两种方式：
 
@@ -153,9 +161,11 @@ Scaffold(
 ))
 ```
 
+{{< /admonition >}}
+
 ### 4. Waiting for another flutter command to release the startup lock...
 
-* 问题现象
+{{< admonition failure 问题现象 >}} 
 
 AndroidStudio的时候顶部的模拟器一直是loading状态，即使已经打开了模拟器。运行flutter doctor 提示：
 
@@ -164,14 +174,23 @@ $ flutter doctor
 Waiting for another flutter command to release the startup lock...
 ```
 
-* 问题解决
+{{< /admonition >}}
+
+{{< admonition success 问题解决 >}} 
 
 从提示中得知，因为有上一条命令未结束而锁定了，如果确认无其他在执行的命令，那可以到Flutter安装目录/bin/cache/，删除lockfile文件，再执行Flutter命令就正常了
+
+{{< /admonition >}}
 
 ### 5. asset在debug、profile下可以读取，但到了release就无法读取，报Unable to load asset的问题
 
 背景：flutter的buildtype默认只有debug profile release三个，而我是add-to-app的，而原宿主app是有debug alpha beta release4个buildtype，add-to-app后，就在宿主app上定义了debug profile alpha beta release共5个
-遇到的问题：我在宿主app上debug profile release三个buildtype下asset读取无异常，但flutter module上没有的alpha beta上时就所有asset都无法读取。
+
+{{< admonition failure 遇到的问题 >}} 
+
+我在宿主app上debug profile release三个buildtype下asset读取无异常，但flutter module上没有的alpha beta上时就所有asset都无法读取。
+
+{{< /admonition >}}
 
 Flutter版本信息如下：
 

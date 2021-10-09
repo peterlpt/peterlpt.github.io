@@ -107,7 +107,11 @@ public class MainActivity extends AppCompatActivity {
 
 将Activity配置`AndroidManifest.xml`
 
-注意：只配置`BridgeActivity`，运行会抛`FlutterActivity`未配置的错误？
+{{< admonition >}} 
+
+只配置`BridgeActivity`，运行会抛`FlutterActivity`未配置的错误？
+
+{{< /admonition >}}
 
 * Flutter module
 

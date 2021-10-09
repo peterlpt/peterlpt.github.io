@@ -14,12 +14,16 @@ draft: false
 
 ### 问题现象
 
+{{< admonition failure 问题>}} 
+
 用Bundle启动Jekyll本地预览报如下错误：
 
 ```shell
 $ bundle exec jekyll serve
 -bash: /usr/local/bin/bundle: /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby: bad interpreter: No such file or directory
 ```
+
+{{< /admonition >}}
 
 ### 问题分析解决
 
