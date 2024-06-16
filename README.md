@@ -1,4 +1,4 @@
-我的个人博客：<http://ptlpt.gitee.io>。
+我的个人博客：<http://peterlpt.github.io>。
 
 [Hugo](https://gohugo.io/)框架，[LoveIt](https://github.com/dillonzq/LoveIt.git)主题
 
