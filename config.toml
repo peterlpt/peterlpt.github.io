@@ -1,4 +1,4 @@
-baseURL = "http://ptlpt.gitee.io"
+baseURL = "http://peterlpt.github.io"
 # [en, zh-cn, fr, ...] 设置默认的语言
 defaultContentLanguage = "zh-cn"
 # 网站语言, 仅在这里 CN 大写
@@ -398,7 +398,7 @@ theme = "LoveIt"
       # 出版者信息
       [params.page.seo.publisher]
         name = "Peter"
-        logoUrl = "https://ptlpt.gitee.io/avatar.png"
+        logoUrl = "https://peterlpt.github.io/avatar.png"
 
   #  TypeIt 配置
   [params.typeit]
@@ -422,9 +422,9 @@ theme = "LoveIt"
   #  网站 SEO 配置
   [params.seo]
     # 图片 URL
-    image = "https://ptlpt.gitee.io/avatar.png"
+    image = "https://peterlpt.github.io/avatar.png"
     # 缩略图 URL
-    thumbnailUrl = "https://ptlpt.gitee.io/favicon.ico"
+    thumbnailUrl = "https://peterlpt.github.io/favicon.ico"
 
   #  网站分析配置
   [params.analytics]
@@ -535,7 +535,7 @@ theme = "LoveIt"
 [author]
   name = "Peter"
   email = "peterlpt@hotmail.com"
-  link = "https://ptlpt.gitee.io/"
+  link = "https://peterlpt.github.io/"
 
 # 网站地图配置
 [sitemap]
