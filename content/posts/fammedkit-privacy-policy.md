@@ -1,13 +1,11 @@
 ---
 title: "【家庭药箱】个人信息保护政策"
 categories: []
-summary: "家庭药箱】App的个人信息保护政策"
+summary: "【家庭药箱】App的个人信息保护政策"
 tags: []
 date: 2025-02-27T13:38:32+08:00
 draft: false
 ---
-
-# 个人信息保护政策
 
 ## 引言
 
